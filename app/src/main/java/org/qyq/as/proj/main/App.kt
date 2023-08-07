@@ -1,6 +1,7 @@
 package org.qyq.`as`.proj.main
 
-import org.qyq.`as`.proj.common.component.HiBaseApplication
+import org.qyq.`as`.proj.common.ui.component.HiBaseApplication
+
 
 /**
  *
@@ -8,9 +9,12 @@ import org.qyq.`as`.proj.common.component.HiBaseApplication
  * @Time: 2023/5/24 23:01
  * @FixAuthor:
  * @FixTime:
- * @Desc:
+ * @Desc: Application
  *
  */
-class App :HiBaseApplication() {
+class App : HiBaseApplication() {
+    override fun onCreate() {
+        super.onCreate()
+    }
 
 }
