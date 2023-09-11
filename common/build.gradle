@@ -41,6 +41,8 @@ dependencies {
 
     //外部项目模块引用为库
     implementation project(':library')
+    implementation project(':hi-ui'
+    )
 
     //三方库
     //Gson
